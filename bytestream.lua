@@ -4,10 +4,7 @@ local bytestream = {
     _bytes = {},
     _currentIndex = {current = 1, last = 1},
     _restorePoint = nil,
-    settings = {
-        intSize = 4,
-        tSize = 4
-    }
+    settings = {}
 }
 
 local function getBitSize(i)
