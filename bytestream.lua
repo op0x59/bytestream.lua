@@ -15,7 +15,7 @@ function bytestream.open(bytes)
     bytestream._bytes = bytes
 end
 
-function bytestream.backupdData()
+function bytestream.backupData()
     bytestream._restorePoint = {
         _currentIndex = bytestream._currentIndex,
         _restorePoint = bytestream._restorePoint,
